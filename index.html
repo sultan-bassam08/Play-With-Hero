@@ -41,7 +41,7 @@
     <div class="overlay" data-overlay></div>
 
     <div class="container">
-
+      <!-- should edit the svg logo for mobile design -->
       <a href="#" class="logo">
         <img src="./assets/images/logo.svg" alt="GameX logo">
       </a>
@@ -55,7 +55,8 @@
         <div class="navbar-top">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="GameX logo">
+            <!-- i will change the svg fit with background -->
+            <img src="./assets/images/logo.svg" alt="GameX logo">  
           </a>
 
           <button class="nav-close-btn" data-nav-close-btn>
@@ -75,20 +76,13 @@
           </li>
 
           <li>
-            <a href="#tournament" class="navbar-link">Tournament</a>
-          </li>
-
-          <li>
-            <a href="#team" class="navbar-link">Team</a>
-          </li>
-
-          <li>
-            <a href="#gears" class="navbar-link">Gears</a>
+            <a href="#Category" class="navbar-link">Category</a>
           </li>
 
           <li>
             <a href="#contact" class="navbar-link">Contact</a>
           </li>
+          <!-- i wanna to add register and login button in mobile design -->
 
         </ul>
 
@@ -96,7 +90,7 @@
 
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
@@ -106,27 +100,11 @@
             </a>
           </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
         </ul>
 
       </nav>
 
       <div class="header-actions">
-
-        <button class="search">
-          <ion-icon name="search-outline"></ion-icon>
-        </button>
 
         <button class="btn-sign_in">
 
@@ -134,7 +112,17 @@
             <ion-icon name="log-in-outline"></ion-icon>
           </div>
 
-          <span>Log-in</span>
+          <span>Sign-in</span>
+
+        </button>
+        
+        <button class="btn-sign_in">
+
+          <div class="icon-box">
+            <ion-icon name="log-in-outline"></ion-icon>
+          </div>
+
+          <span>Sign-up</span>
 
         </button>
 
@@ -155,25 +143,24 @@
       <section class="hero" id="hero">
         <div class="container">
 
-          <p class="hero-subtitle">The Season 8</p>
+           <p class="hero-subtitle">Whether for fun or skill, 'Play with Hero' connects you with players and venues to make every game memorable</p>
 
-          <h1 class="h1 hero-title">Steam</h1>
+          <h3 class="h3 hero-title">Find Your Match, Elevate Your Game!</h3>
 
           <div class="btn-group">
 
             <button class="btn btn-primary">
-              <span>Watch live</span>
+              <span>Join with us</span>
 
               <ion-icon name="play-circle"></ion-icon>
             </button>
 
-            <button class="btn btn-link">Dream making</button>
+            
 
           </div>
 
         </div>
       </section>
-
 
       <div class="section-wrapper">
 
@@ -182,43 +169,39 @@
         -->
 
         <section class="about" id="about">
+          
           <div class="container">
-
+            
+        
+            <!-- Hero Image and Characters -->
             <figure class="about-banner">
-
-              <img src="./assets/images/about-img.png" alt="M shape" class="about-img">
-
-              <img src="./assets/images/character-1.png" alt="Game character" class="character character-1">
-
-              <img src="./assets/images/character-2.png" alt="Game character" class="character character-2">
-
-              <img src="./assets/images/character-3.png" alt="Game character" class="character character-3">
-
+              <img src="./assets/images/basketball aboutus2.jpg" alt="Play with Hero Banner" class="about-img">
+        
+              <!-- Characters appear from different angles -->
             </figure>
-
+        
+            <!-- About Content Section -->
             <div class="about-content">
-
-              <p class="about-subtitle">Find team member</p>
-
-              <h2 class="about-title">Experience just for gamers <strong>offer</strong> </h2>
-
+              <p class="about-subtitle">Unite. Play. Win.</p>
+              
+              <h2 class="about-title">Your Ultimate Sports Experience with <strong>Play with Hero</strong></h2>
+        
               <p class="about-text">
-                Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum
-                viverra felis nunc
-                et lorem. In auctor lobortis lacus. Phasellus gravida semper nisi. Aliquam lobortis.
+                Join a vibrant community of sports enthusiasts and gamers. Whether you're playing casually or training to become a pro, we’ve got the perfect match for you. Find local venues, meet new players, and book your next game in a few clicks. Your journey to play begins here.
               </p>
-
-              <p class="about-bottom-text">
-                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
-
-                <span>Will sharpen your brain and focus</span>
-              </p>
-
+        
+              <div class="cta">
+                <p class="about-bottom-text">
+                  <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                  <span>Find Your Next Match Now</span>
+                </p>
+                <a href="#match-booking" class="btn btn-primary">Book a Game</a>
+              </div>
             </div>
-
+        
           </div>
         </section>
-
+        
 
         <!-- 
           - #TOURNAMENT
@@ -671,9 +654,6 @@
   </main>
 
 
-
-
-
   <!-- 
     - #FOOTER
   -->
@@ -702,15 +682,7 @@
               </li>
 
               <li>
-                <a href="#tournament" class="footer-menu-link">Tournament</a>
-              </li>
-
-              <li>
-                <a href="#team" class="footer-menu-link">Team</a>
-              </li>
-
-              <li>
-                <a href="#gears" class="footer-menu-link">Gears</a>
+                <a href="#Category" class="footer-menu-link">Category</a>
               </li>
 
               <li>
@@ -754,28 +726,15 @@
           </ul>
 
           <ul class="footer-social-list">
-
             <li>
-              <a href="#" class="footer-social-link">
-                <ion-icon name="logo-discord"></ion-icon>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
-
+  
             <li>
-              <a href="#" class="footer-social-link">
-                <ion-icon name="logo-twitch"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-social-link">
-                <ion-icon name="logo-xbox"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
@@ -786,23 +745,8 @@
       </div>
     </div>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <p class="copyright">
-          Copyright &copy; 2022 <a href="#">codewithsadee</a>. all rights reserved
-        </p>
-
-        <figure class="footer-bottom-img">
-          <img src="./assets/images/footer-bottom-img.png" alt="Online payment companies logo">
-        </figure>
-      </div>
-    </div>
 
   </footer>
-
-
-
-
 
   <!-- 
     - #GO TO TOP
@@ -811,8 +755,6 @@
   <a href="#top" class="btn btn-primary go-top" data-go-top>
     <ion-icon name="chevron-up-outline"></ion-icon>
   </a>
-
-  
 
 
   <!-- 
